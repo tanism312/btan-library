@@ -121,7 +121,7 @@
       <h2>Attribute, Class and Style Binding with <code>v-bind</code></h2>
       <p>Highlighting Specific Authors:</p>
       <!-- HERE -->
-      <div :style="{ color: textColor }">George Orwell</div>
+
       <ul>
         <li v-for="author in authors" :class="{ highlight: author.name === 'George Orwell' }">
           {{ author.name }}
@@ -201,7 +201,7 @@ p {
 }
 
 .highlight {
-  background-color: #42b883;
+  background-color: #556eb1;
 }
 
 code {
